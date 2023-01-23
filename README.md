@@ -9,6 +9,7 @@ No more thinking of thinking of unique tags, now quickly generate tags for your 
 ## Stack
 
 - [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [Next.js](https://nextjs.org/)
 - [OpenAi](https://openai.com/api/)
 
