@@ -3,6 +3,7 @@ import { FiX } from "react-icons/fi";
 import copy from "copy-to-clipboard";
 import Script from "next/script";
 import Head from "next/head";
+import Link from "next/link";
 
 const Step = ({
   step,
@@ -248,7 +249,14 @@ const Home = () => {
       </Step>
       <footer className="bottom-0 mt-28 text-center">
         <p className="text-gray-600 mb-2">
-          Made with ❤️ by <span className="font-bold">Nicholas</span>
+          Made with ❤️ by{" "}
+          <Link
+            href="https://github.com/alsonick"
+            className="font-bold"
+            target="_blank"
+          >
+            Nicholas
+          </Link>
         </p>
         <a
           className="github-button"
